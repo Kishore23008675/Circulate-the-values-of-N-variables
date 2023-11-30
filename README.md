@@ -20,17 +20,19 @@ using concatenation operation display the entire rotated list
 stop the program
 ## Program:
 ```
-#program to circulate N values.
-#Devloped by :kishore A
-#Registernumber :23008675
+#Program to circulate N values.
+#Developed by:KISHORE A
+#RegisterNumber:23008675
 def circulate():
-    list1=eval(input())
+    list=eval(input())
     n=int(input())
     result=list[n:]+list[:n]
-    print("After circulating the values are",result)
+    print("After circulating the values are:",result)
 ```
 ## Output:
-![output](/Screenshot%20from%202023-10-17%2014-28-26.png)
+![image](https://github.com/Kishore23008675/Circulate-the-values-of-N-variables/assets/144979375/80724a92-7e7e-4636-b9e3-dde309b258c1)
+
+
 
 ## Result:
 Thus the python program for circulate the values of n variable is executed successfully
